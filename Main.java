@@ -72,6 +72,30 @@ public class Main {
 }
 //ZAD 2.7
  */
+/*public class Main {
+    public static void main(String[] args) {
+        int[][] tablica = {{0, 10, 20}, {1, 11, 21}, {2, 12, 22}};
+        for (int i = 0; i < 3; i++){
+            for (int j = 0; j < 3; j++) {
+                System.out.print(tablica[i][j] + " ");
+            }
+            System.out.println();
+        }
+        int[] temp = tablica[0];
+        tablica[0] = tablica[2];
+        tablica[2] = temp;
+        System.out.println("Po zamianie wierszy:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(tablica[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+//ZAD 2.6
+ */
+
 /*
 public class Main {
     public static void main(String[] args) {
